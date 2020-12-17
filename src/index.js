@@ -5,9 +5,9 @@ import App from "./App/App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
+    // <React.StrictMode></React.StrictMode> -- comment this to remove this error
+    // ----- Warning: findDOMNode is deprecated in StrictMode. findDOMNode was passed an instance
+    <App />,
     document.getElementById("root")
 );
 
